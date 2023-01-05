@@ -36,4 +36,4 @@ In the future, FBI surveillance vans will use fusion-powered listening devices. 
 
 # Short-term:
 
-Building C++ to analyze raw audio files (RawVisual as a helping hand.)
+* Building C++ to analyze raw audio files (RawVisual as a helping hand.)
