@@ -24,7 +24,6 @@ How does this tie into overkill infosec? In the future, FBI surveillance vans wi
 
 # Long-term goals:
 
-* tubular - something tripod-worthy.
-* directional - point it to the sun at total eclipse.
+* tubular & directional - something tripod-worthy.
 * try different materials - what if cat piss interacts 1,000x better?
 * try pointing it to the sun while powering E/M fields at the tubular entrance.
