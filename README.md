@@ -16,6 +16,10 @@ Portable neutrino detector.
   <img src="https://github.com/compromise-evident/LeptonKit/blob/main/Other/Wiring.jpg">
 </p>
 
+# Quick background:
+
+Neutrinos are absurdly abundant and truly invisible particles that pass through everything. Yet every once in a while, something possesses them to interact with the real world, such as with mineral oil where a photon is produced as a result. Hence the search for conditions increasing likelihood of interaction.
+
 # Plan to prove interaction:
 
 If I take a metal tube that's reflective on the inside, fill it with mineral oil, and point it at the sun, I should get a higher photon count than if pointed away because individual neutrinos spend more time in the oil--more time to catch the neutrino in its phase change or whatever possesses it to interact. (I might have to build a sun-follower and autonom-ize audio-record for over a year just get good numbers.)
