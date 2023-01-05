@@ -34,6 +34,6 @@ In the future, FBI surveillance vans will use fusion-powered listening devices. 
 * Try different materials - what if cat piss interacts 1,000x better?
 * Try pointing it to the sun while powering E/M fields at the tubular entrance.
 
-# Now:
+# Short-term:
 
 Building C++ to analyze raw audio files (RawVisual as a helping hand.)
