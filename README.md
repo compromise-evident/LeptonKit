@@ -31,4 +31,4 @@ If I take a metal tube that's reflective on the inside, fill it with mineral oil
 * Try different materials - what if cat piss interacts 1,000x better?
 * Try pointing it to the sun while powering E/M fields at the tubular entrance.
 * Keep adjusting sensitivity and pursue sensory equipment of no laughing matter.
-* Neutrino observatory - the universe through direct observation of hydrogen fusion.
+* Neutrino observatory - the universe through observation of hydrogen fusion exclusively.
