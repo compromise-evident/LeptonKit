@@ -18,7 +18,7 @@ Portable neutrino detector.
 
 # Quick background:
 
-Neutrinos are absurdly abundant and truly invisible particles that pass through everything. Yet every once in a while, something possesses them to interact with the real world, such as collision with mineral oil where a photon is produced as a result... Hence the search for conditions increasing likelihood of interaction.
+Neutrinos are absurdly abundant and truly invisible particles passing through everything. Yet every once in a while, something possesses them to interact with the real world, such as collision with mineral oil where a photon is produced as a result... Hence the search for conditions increasing likelihood of interaction.
 
 # Plan to prove interaction:
 
