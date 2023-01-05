@@ -16,7 +16,7 @@ Portable neutrino detector.
   <img src="https://github.com/compromise-evident/LeptonKit/blob/main/Other/Wiring.jpg">
 </p>
 
-### Building C++ to analyze raw audio files...
+## Building C++ to analyze raw audio files...
 
 If I take a metal tube that's reflective on the inside, fill it with this oil, and point it at the sun, I should get a higher photon count than if pointed away because individual particles spend more time in the oil--more time to catch particles in their phase changes or whatever posesses them to interact.
 
