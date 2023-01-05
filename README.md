@@ -26,5 +26,5 @@ How does this tie into overkill infosec? In the future, FBI surveillance vans wi
 
 * tubular - something tripod-worthy
 * directional - point it to the sun at total eclipse
-* try different materials - what if cat piss interacts 1000x better?
+* try different materials - what if cat piss interacts 1,000x better?
 * try pointing it at the sun while powering E/M fields at the tubular entrance
