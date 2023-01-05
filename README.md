@@ -18,7 +18,7 @@ Portable neutrino detector.
 
 # Plan to prove interaction:
 
-If I take a metal tube that's reflective on the inside, fill it with this oil, and point it at the sun, I should get a higher photon count than if pointed away because individual particles spend more time in the oil--more time to catch particles in their phase change or whatever possesses them to interact. (I might have to build a sun-follower and autonom-ize self-record for over a year just get good numbers.)
+If I take a metal tube that's reflective on the inside, fill it with mineral oil, and point it at the sun, I should get a higher photon count than if pointed away because individual neutrinos spend more time in the oil--more time to catch the neutrino in its phase change or whatever possesses it to interact. (I might have to build a sun-follower and autonom-ize audio-record for over a year just get good numbers.)
 
 # Relation to overkill infosec:
 
