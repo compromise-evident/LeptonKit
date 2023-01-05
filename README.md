@@ -26,7 +26,7 @@ If I take a metal tube that's reflective on the inside, fill it with mineral oil
 
 # What next?
 
-* Building C++ to analyze raw audio files...
+* Building LeptonKit.cpp to analyze raw audio files...
 * Tubular & directional - something tripod-worthy.
 * Try different materials - what if cat piss interacts 1,000x better?
 * Try pointing it to the sun while powering E/M fields at the tubular entrance.
