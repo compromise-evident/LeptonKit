@@ -22,7 +22,7 @@ If I take a metal tube that's reflective on the inside, fill it with this oil, a
 
 How does this tie into overkill infosec? In the future, FBI surveillance vans will use fusion-powered listening devices. And fusion can be detected by observing emitted neutrinos. Maybe one day you'll walk around with a lead pipe connected to your phone and get a thermal-like visual of nearby hydrogen power supplies. This is just the beginning. If this fails, I'll keep adjusting sensitivity, and pursue equipment of no laughing matter...
 
-# Long-term goals:
+# Long-term:
 
 * Tubular & directional - something tripod-worthy.
 * Try different materials - what if cat piss interacts 1,000x better?
