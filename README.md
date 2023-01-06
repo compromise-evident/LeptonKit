@@ -18,7 +18,7 @@ Portable neutrino detector.
 
 # Quick background
 
-Neutrinos are absurdly abundant and truly invisible particles passing through everything. Yet every long once in a while, something possesses them to interact with the real world, such as collision with mineral oil where a photon is produced as a result... How is this related to overkill infosec? In the future, FBI surveillance vans will use fusion-powered listening devices. And fusion can be detected by observing emitted neutrinos. Maybe one day you'll walk around with a lead pipe connected to your phone and get a thermal-like visual of nearby hydrogen power supplies.
+Neutrinos are absurdly abundant and truly invisible particles passing through everything. Yet every long once in a while, something possesses them to interact with the real world, such as collision with mineral oil where a photon is produced as a result.
 
 # Plan to prove detection
 
