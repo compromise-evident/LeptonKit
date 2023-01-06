@@ -48,7 +48,7 @@ int main()
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	//                                                                                                                          |
-	bool printed_in_terminal = true; //DEFAULT = TRUE else no visual in terminal.                     no visual of broken >     |
+	bool printed_in_terminal = true; //DEFAULT = TRUE else no visual in terminal.                     no visual if broken >     |
 	//                                                                                                                          |
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
