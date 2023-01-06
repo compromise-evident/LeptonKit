@@ -30,4 +30,4 @@ If I take a metal tube that's reflective on the inside, fill it with mineral oil
 * Tubular & directional - something tripod-worthy.
 * Try different materials - what if cat piss interacts much better?
 * Keep adjusting sensitivity and pursue equipment of no laughing matter.
-* Fast neutrino generator to send [messages](https://en.wikipedia.org/wiki/Neutrino#cite_note-Stancil-Adamson-Alania-etal-2012-116) through the Earth--un-takedown-able signal assurance.
+* Fast neutrino generator to send [messages](https://en.wikipedia.org/wiki/Neutrino#cite_note-Stancil-Adamson-Alania-etal-2012-116) through the Earth (un-takedown-able signal assurance.)
