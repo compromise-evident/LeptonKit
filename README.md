@@ -34,7 +34,7 @@ If I take a metal tube that's reflective on the inside, fill it with mineral oil
 
 # Run LeptonKit.cpp
 
-untitled.raw is a 1-minute recording. It has 4 '#' scattered throughout.
+untitled.raw is a 1-minute recording. It has 4 '#' scattered throughout hence 4 flashes of light detected.
 
 <p align="center">
   <img src="https://github.com/compromise-evident/LeptonKit/blob/main/Other/Terminal">
