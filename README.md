@@ -30,7 +30,7 @@ untitled.raw is a 1-minute recording. LeptonKit.cpp sees it has 4 '#' scattered 
 
 Neutrinos are absurdly abundant and truly invisible particles passing through everything. Yet every once in a while, something possesses them to interact with the real world, such as collision with mineral oil--producing a photon.
 
-# What next?
+# What next
 
 * It is said that 65 billion neutrinos run through a squared centimeter of Earth's surface, per second. Currently, LeptonKit reads a flash of light roughly once every 10 seconds. So I have to run the experiment in a mine and see if it's mostly cosmic rays.
 * Plan to prove detection: if I take a metal tube that's reflective on the inside, fill it with mineral oil, and point it at the sun, I should get a higher photon count than if pointed away because individual neutrinos spend more time in the oil--more time to catch the neutrino in its phase change or whatever possesses it to interact. (I might have to build a sun-follower and autonom-ize audio-record for over a year just get good numbers.)
