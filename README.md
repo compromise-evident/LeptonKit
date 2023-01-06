@@ -31,3 +31,11 @@ If I take a metal tube that's reflective on the inside, fill it with mineral oil
 * Try different materials - insert a long test tube for quick access.
 * Keep adjusting sensitivity and pursue equipment of no laughing matter.
 * Fast neutrino generator for sending [messages](https://en.wikipedia.org/wiki/Neutrino#cite_note-Stancil-Adamson-Alania-etal-2012-116) through the Earth (un-takedown-able signal assurance.)
+
+# Run LeptonKit.cpp
+
+untitled.raw is a 1-minute recording. It has 4 '#' scattered throughout.
+
+<p align="center">
+  <img src="https://github.com/compromise-evident/LeptonKit/blob/main/Other/Terminal">
+</p>
