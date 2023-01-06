@@ -26,9 +26,8 @@ If I take a metal tube that's reflective on the inside, fill it with mineral oil
 
 # What next?
 
-* Building LeptonKit.cpp to analyze raw audio files...
+* LeptonKit.cpp to analyze raw audio files.
 * Tubular & directional - something tripod-worthy.
-* Try different materials - what if cat piss interacts 1,000x better?
-* Try pointing it to the sun while powering E/M fields at the tubular entrance.
-* Keep adjusting sensitivity and pursue sensory equipment of no laughing matter.
-* Neutrino observatory - the universe through observation of hydrogen fusion exclusively.
+* Try different materials - what if cat piss interacts much better?
+* Keep adjusting sensitivity and pursue equipment of no laughing matter.
+* Fast neutrino generator to send [messages](https://en.wikipedia.org/wiki/Neutrino#cite_note-Stancil-Adamson-Alania-etal-2012-116) through the Earth.
