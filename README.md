@@ -28,6 +28,6 @@ If I take a metal tube that's reflective on the inside, fill it with mineral oil
 
 * LeptonKit.cpp to analyze raw audio files.
 * Tubular & directional - something tripod-worthy.
-* Try different materials - what if cat piss interacts much better?
+* Try different materials - insert a long test tube for quick access.
 * Keep adjusting sensitivity and pursue equipment of no laughing matter.
 * Fast neutrino generator for sending [messages](https://en.wikipedia.org/wiki/Neutrino#cite_note-Stancil-Adamson-Alania-etal-2012-116) through the Earth (un-takedown-able signal assurance.)
