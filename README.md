@@ -26,7 +26,7 @@ If I take a metal tube that's reflective on the inside, fill it with mineral oil
 
 # What next?
 
-* It is said that 65 billion neutrinos run through a squared centimeter of Earth's surface, per second. Currently, LeptonKit reads a flash of light roughly once every 10 seconds. So I have to run the experiment in a mine to see if it's mostly cosmic rays.
+* It is said that 65 billion neutrinos run through a squared centimeter of Earth's surface, per second. Currently, LeptonKit reads a flash of light roughly once every 10 seconds. So I have to run the experiment in a mine and see if it's mostly cosmic rays.
 * Tubular & directional - something tripod-worthy.
 * Try different materials - insert a long test tube for quick access.
 * Keep adjusting sensitivity and pursue equipment of no laughing matter.
