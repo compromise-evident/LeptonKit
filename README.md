@@ -44,8 +44,3 @@ Neutrinos are absurdly abundant and truly invisible particles passing through ev
 <p align="center">
   <img src="https://github.com/compromise-evident/LeptonKit/blob/main/Other/Control.jpg">
 </p>
-
-
-# UPDATE
-
-Testing additional control experiments. Something's wrong. And Audacity has changed its recording style, not sure how or how to revert it. For now, disregard this repository.
