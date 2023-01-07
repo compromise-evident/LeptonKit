@@ -2,7 +2,7 @@
 /// Nikolay Valentinovich Repnitskiy - License: WTFPLv2+ (wtfpl.net)
 
 
-/* v1.0.0  Use device from  github.com/compromise-evident/LeptonKit  in order to
+/* v2.0.0  Use device from  github.com/compromise-evident/LeptonKit  in order to
 record with Audacity, then export recording as  "other uncompressed files"  with
 
       Header:  RAW (header-less)
@@ -46,39 +46,77 @@ int main()
 {	ifstream in_stream;
 	ofstream out_stream;
 	
-	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	//                                                                                                                          |
-	bool printed_in_terminal = true; //DEFAULT = TRUE else no visual in terminal.                     no visual if broken >     |
-	//                                                                                                                          |
-	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	//                                                                                                                            |
+	bool printed_in_terminal = false; //DEFAULT = FALSE else lengthy visual in terminal.                no visual if broken >     |
+	//                                                                                                                            |
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
-	in_stream.open("untitled.raw");
-	if(in_stream.fail() == true) {cout << "no file"; return 0;}
-	long long flash_of_light_counter = 0;
-	long long first_500_000_bytes = 1;
-	char temp_file_byte;
-	in_stream.get(temp_file_byte);
-	for(; in_stream.eof() == false;)
-	{	in_stream.get(temp_file_byte);
+	for(;;)
+	{	//Gets path to file from user.
+		cout << "\nDrag & drop file into terminal or enter path:\n";
 		
-		if(temp_file_byte > 95)
-		{	if(printed_in_terminal == true)  {cout << " ";}
-		}
-		else
-		{	if(printed_in_terminal == true)  {cout << "#";}
-			if(first_500_000_bytes > 500000) {flash_of_light_counter++;}
+		char  path_to_file[10000];
+		for(int a = 0; a < 10000; a++) {path_to_file[a] = '\0';} //Fills path_to_file[] with null.
+		cin.getline(path_to_file, 10000);
+		if(path_to_file[0] == '\0') {cout << "\nNo path given.\n"; return 0;}
+		
+		//Fixes path to file if drag & dropped (removes single quotes for ex:)   '/home/nikolay/my documents/untitled.raw'
+		if(path_to_file[0] == '\'')
+		{	for(int a = 0; a < 10000; a++)
+			{	path_to_file[a] = path_to_file[a + 1];
+				if(path_to_file[a] == '\'')
+				{	path_to_file[a    ] = '\0';
+					path_to_file[a + 1] = '\0';
+					path_to_file[a + 2] = '\0';
+					break;
+				}
+			}
 		}
 		
-		//First few seconds are skipped in case you activated the tester LED as the very early
-		//first activity in order to see if buggy Audacity is recording at that particular time.
-		//Additionally, the first few seconds are skipped to allow recording hardware to settle.
-		first_500_000_bytes++; //May serve secondary purpose in later versions (total Bytes.)
+		//Checks if file exists (failure can be bad path info as well.)
+		in_stream.open(path_to_file);
+		if(in_stream.fail() == true) {in_stream.close(); cout << "\n\nNo such file or directory.\n";             continue;}
+		char sniffed_one_file_character;
+		in_stream.get(sniffed_one_file_character);
+		if(in_stream.eof() == true) {in_stream.close();  cout << "\n\nNothing to process, the file is empty.\n"; continue;}
+		in_stream.close();
+		
+		//Processes file.
+		in_stream.open(path_to_file);
+		if(in_stream.fail() == true) {cout << "no file"; return 0;}
+		long long flash_of_light_counter = 0;
+		long long total_bytes = 0;
+		char temp_file_byte;
+		int  file_byte_normal;
+		in_stream.get(temp_file_byte);
+		for(; in_stream.eof() == false;)
+		{	//..........Fixes Byte.
+			file_byte_normal = temp_file_byte;
+			if(file_byte_normal < 0) {file_byte_normal += 256;}
+			
+			if(file_byte_normal == 128)
+			{	if(printed_in_terminal == true)  {cout << "#";}
+				if(total_bytes > 500000) {flash_of_light_counter++;}
+			}
+			else
+			{	if(printed_in_terminal == true)  {cout << " ";}
+			}
+			
+			//First few seconds are skipped in case you activated the tester LED as the very early
+			//first activity in order to see if buggy Audacity is recording at that particular time.
+			//Additionally, the first few seconds are skipped to allow recording hardware to settle.
+			total_bytes++;
+			
+			in_stream.get(temp_file_byte);
+		}
+		in_stream.close();
+		
+		//As you scroll through the visual output in the terminal, you'll see one '#' every long once in a while.
+		//That's a flash of light bright enough to let current through the photoresistor and into the microphone line.
+		//If observing my uploaded sample raw audio files, you'll see 3 groups of activity at the beginning in the terminal,
+		//that's where I activated the tester LED and watched Audacity pick up 3 spikes. (It's good to know it's recording.)
+		if(printed_in_terminal == true) {cout << "\n\n";}
+		cout << flash_of_light_counter << " flashes of light (skipped first few seconds, " << total_bytes << " Bytes total)\n\n";
 	}
-	in_stream.close();
-	
-	//As you scroll through the visual output in the terminal, you'll see one '#' every long once in a while.
-	//That's a flash of light bright enough to let current through the photoresistor and into the microphone line.
-	//If observing my uploaded sample raw audio files, you'll see 3 groups of activity at the beginning in the terminal,
-	//that's where I activated the tester LED and watched Audacity pick up 3 spikes. (It's good to know it's recording.)
-	cout << "\n\n" << flash_of_light_counter << " flashes of light (skipped first few seconds.)";
 }
