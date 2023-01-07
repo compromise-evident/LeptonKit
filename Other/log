@@ -2,5 +2,13 @@ LeptonKit log
 
 
 
+Version 2.0 0   Drag & drop, loops. Added  file_byte_normal.  Fixed total Betes.
+                printed_in_terminal is now off by default.  Now looks for Byte #
+                128 (normalized Byte ID.)Performed extensive control experiments
+                and other,  looks like everything's ok, but I can't get the same
+                detection possibly because Audacity changed something (yes I can
+                see all file Bytes using my very own RawVisual program.)
+                Saturday, January 7 2023
+
 Version 1.0.0   A Flash of light detected roughly once every 10 seconds!
                 Friday, January 6 2023
