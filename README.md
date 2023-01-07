@@ -38,3 +38,7 @@ Neutrinos are absurdly abundant and truly invisible particles passing through ev
 * Try different materials - insert a long test tube for quick access.
 * Keep adjusting sensitivity and pursue equipment of no laughing matter.
 * Fast neutrino generator for sending [messages](https://en.wikipedia.org/wiki/Neutrino#cite_note-Stancil-Adamson-Alania-etal-2012-116) through the Earth (un-takedown-able signal assurance.)
+
+<p align="center">
+  <img src="https://github.com/compromise-evident/LeptonKit/blob/main/Other/Control.jpg">
+</p>
