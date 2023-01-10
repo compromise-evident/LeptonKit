@@ -28,7 +28,7 @@ untitled.raw is a 1-minute recording. LeptonKit.cpp sees it has 4 128 scattered 
 
 # Quick background
 
-Neutrinos are absurdly abundant and truly invisible particles passing through everything. Yet every once in a while, something possesses them to interact with the real world, such as collision with mineral oil--producing a photon.
+Neutrinos are absurdly abundant and truly invisible particles passing through everything. Yet every once in a while, something possesses them to interact with the real world, such as collision with mineral oil--producing a photon. [1,](https://www.youtube.com/watch?v=AaZ_RSt0KP8) [2](https://www.youtube.com/watch?v=_IJOe0eVmCQ)
 
 # What next
 
