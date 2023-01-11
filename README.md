@@ -41,7 +41,7 @@ Neutrinos are absurdly abundant and truly invisible particles passing through ev
 
 # Additional experiments
 
-Tried quite a few configutations. Some are too sensitive and pick up all kinds of uninteresting particles, while others made me wait too long for detection. I have concluded that fuck neutrinos.
+Tried quite a few configutations. Some are incredibly sensitive and pick up all kinds of uninteresting particles, while others made me wait too long for detection. I have concluded that fuck neutrinos.
 
 <p align="center">
   <img src="https://github.com/compromise-evident/LeptonKit/blob/main/Other/Fused-quartz.png">
