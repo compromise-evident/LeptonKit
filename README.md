@@ -32,7 +32,6 @@ Neutrinos are absurdly abundant and truly invisible particles passing through ev
 
 # What next
 
-* It is said that 65 billion neutrinos run through a squared centimeter of Earth's surface, per second. LeptonKit read a flash of light roughly once every 10 seconds. So I have to run the experiment in a mine and see if it's mostly cosmic rays. However, as Audacity changed its recording style on its own without telling me, LeptonKit can no longer see the same random flashes of light but only the flashes produced with the tester LED. Investigating the issue... Not getting a single flash in 2 hours. Perhaps those first 11 flashes on Jan 6 2023 were due to showers of cosmic rays. Increasing sensitivity...
 * Plan to prove detection: if I take a metal tube that's reflective on the inside, fill it with mineral oil, and point it at the sun, I should get a higher photon count than if pointed away because individual neutrinos spend more time in the oil--more time to catch the neutrino in its phase change or whatever possesses it to interact. (I might have to build a sun-follower and autonom-ize audio-record for over a year just to get good numbers.)
 * Tubular & directional - something tripod-worthy.
 * Try different materials - insert a long test tube for quick access.
