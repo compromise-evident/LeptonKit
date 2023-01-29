@@ -20,6 +20,8 @@ Portable neutrino detector.
   <img src="https://github.com/compromise-evident/LeptonKit/blob/main/Other/Terminal.png">
 </p>
 
+[Auditing in the browser?](https://coliru.stacked-crooked.com/a/2deb0ae52617b33e)
+
 untitled.raw is a 1-minute recording. LeptonKit.cpp sees it has 4 128 scattered throughout hence 4 flashes of light.
 <br>
 <br>
@@ -36,7 +38,7 @@ Neutrinos are absurdly abundant and truly invisible particles passing through ev
 * Tubular & directional - something tripod-worthy.
 * Try different materials - insert a long test tube for quick access.
 * Keep adjusting sensitivity and pursue equipment of no laughing matter.
-* Fast neutrino generator for sending [messages](https://en.wikipedia.org/wiki/Neutrino#cite_note-Stancil-Adamson-Alania-etal-2012-116) through the Earth (un-takedown-able signal assurance.)
+* Fast neutrino generator for sending [messages](https://en.wikipedia.org/wiki/Neutrino#cite_note-Stancil-Adamson-Alania-etal-2012-116) through the Earth (imprescriptible signal assurance.)
 
 # Additional experiments
 
