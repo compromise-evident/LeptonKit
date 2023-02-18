@@ -20,7 +20,7 @@ Portable neutrino detector.
   <img src="https://github.com/compromise-evident/LeptonKit/blob/main/Other/Terminal.png">
 </p>
 
-[Auditing in the browser?](https://coliru.stacked-crooked.com/a/2deb0ae52617b33e)
+[Auditing in the browser?](https://coliru.stacked-crooked.com/a/9f95611a1a3fa3fc)
 
 untitled.raw is a 1-minute recording. LeptonKit.cpp sees it has 4 128 scattered throughout hence 4 flashes of light.
 <br>
