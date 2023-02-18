@@ -48,7 +48,7 @@ int main()
 	
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	//                                                                                                                            |
-	bool printed_in_terminal = false; //DEFAULT = FALSE else lengthy visual in terminal.                no visual if broken >     |
+	bool printed_in_terminal = false; //DEFAULT = FALSE else lengthy visual in terminal.                   visual if broken >     |
 	//                                                                                                                            |
 	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
